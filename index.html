@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciona Tech LLC | Engineer Growth - Premium Digital Marketing Agency Houston</title>
+    <meta name="description" content="Ciona Tech LLC is a full-service digital marketing agency in Houston, Texas. We engineer growth through data-driven strategies, web development, SEO, social media marketing, and conversion optimization.">
+    <meta name="keywords" content="digital marketing agency Houston, web development, SEO services, social media marketing, UI/UX design, Google Business Profile, conversion optimization">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◈</text></svg>">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <p class="loader-text">INITIALIZING SYSTEM...</p>
+        </div>
+    </div>
+
+    <!-- 3D Canvas Container -->
+    <canvas id="webgl-canvas"></canvas>
+
+    <!-- UI Overlay -->
+    <div id="ui-overlay">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">CIONA<span class="highlight">TECH</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">HOME</a></li>
+                <li><a href="#services" class="nav-link">SERVICES</a></li>
+                <li><a href="#process" class="nav-link">PROCESS</a></li>
+                <li><a href="#work" class="nav-link">WORK</a></li>
+                <li><a href="#pricing" class="nav-link">PRICING</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+            <button class="cta-btn nav-cta">START PROJECT</button>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#process">PROCESS</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <!-- Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    ENTER THE SYSTEM
+                </div>
+                <h1 class="hero-title">
+                    WE DON'T DO MARKETING.<br>
+                    <span class="gradient-text">WE ENGINEER GROWTH.</span>
+                </h1>
+                <div class="dynamic-text-container">
+                    <span class="dynamic-prefix">SYSTEM CAPABILITIES:</span>
+                    <div class="dynamic-words">
+                        <span class="word active">BUILD</span>
+                        <span class="word">RANK</span>
+                        <span class="word">SCALE</span>
+                    </div>
+                </div>
+                <p class="hero-subtext">
+                    Step inside a system designed to generate traffic, conversions, and predictable revenue.
+                </p>
+                <div class="hero-ctas">
+                    <button class="btn-primary glow-effect">
+                        <span class="btn-icon">🚀</span>
+                        ENTER GROWTH SYSTEM
+                    </button>
+                    <button class="btn-secondary">
+                        <span class="btn-icon">📊</span>
+                        VIEW LIVE RESULTS
+                    </button>
+                </div>
+                
+                <!-- Live Stats Hologram -->
+                <div class="live-stats">
+                    <div class="stat-card hologram">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">PROJECTS DELIVERED</div>
+                        <div class="stat-suffix">+</div>
+                    </div>
+                    <div class="stat-card hologram">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">AVERAGE ROI</div>
+                        <div class="stat-suffix">X</div>
+                    </div>
+                    <div class="stat-card hologram">
+                        <div class="stat-number special">24/7</div>
+                        <div class="stat-label">SUPPORT ACTIVE</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>SCROLL TO EXPLORE</span>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="section-header">
+                <div class="section-badge">CORE MODULES</div>
+                <h2 class="section-title">GROWTH <span class="gradient-text">ENGINE</span></h2>
+                <p class="section-subtitle">Each service is a precision-engineered component of your success system</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-service="web-dev">
+                    <div class="card-glow"></div>
+                    <div class="service-icon">💻</div>
+                    <h3>Website Development</h3>
+                    <p>High-performance, conversion-focused builds that turn visitors into customers. We create blazing-fast, mobile-responsive websites engineered for maximum conversions and search engine dominance.</p>
+                    <ul class="service-features">
+                        <li>⚡ Custom WordPress & React Development</li>
+                        <li>🚀 95+ PageSpeed Scores Guaranteed</li>
+                        <li>🔒 SSL Security & Performance Optimization</li>
+                        <li>📱 Mobile-First Responsive Design</li>
+                        <li>🛒 E-commerce Integration (Shopify, WooCommerce)</li>
+                    </ul>
+                    <div class="service-benefit">
+                        <span class="benefit-icon">⚡</span>
+                        <span>3X Faster Load Times</span>
+                    </div>
+                    <div class="card-arrow">→</div>
+                </div>
+                
+                <div class="service-card" data-service="graphic-design">
+                    <div class="card-glow"></div>
+                    <div class="service-icon">🎨</div>
+                    <h3>Graphic Designing</h3>
+                    <p>Visual identity that commands attention and builds instant brand recognition. From logos to marketing materials, we craft designs that tell your story and resonate with your audience.</p>
+                    <ul class="service-features">
+                        <li>🎯 Logo Design & Brand Identity</li>
+                        <li>📐 Marketing Collateral & Print Design</li>
+                        <li>🖼️ Social Media Graphics & Templates</li>
+                        <li>📊 Infographics & Data Visualization</li>
+                        <li>🎬 Motion Graphics & Animation</li>
+                    </ul>
+                    <div class="service-benefit">
+                        <span class="benefit-icon">✨</span>
+                        <span>Memorable Branding</span>
+                    </div>
+                    <div class="card-arrow">→</div>
+                </div>
+                
+                <div class="service-card" data-service="ui-ux">
+                    <div class="card-glow"></div>
+                    <div class="service-icon">🧠</div>
+                    <h3>UI/UX Web Designing</h3>
+                    <p>User experiences engineered for maximum engagement and conversion. We combine psychology, data, and design principles to create interfaces that users love and businesses profit from.</p>
+                    <ul class="service-features">
+                        <li>🔬 User Research & Persona Development</li>
+                        <li>🗺️ Information Architecture & Wireframing</li>
+                        <li>🎨 Interactive Prototyping</li>
+                        <li>♿ Accessibility Compliance (WCAG 2.1)</li>
+                        <li>📈 A/B Testing & Conversion Optimization</li>
+                    </ul>
+                    <div class="service-benefit">
+                        <span class="benefit-icon">🎯</span>
+                        <span>40% Higher Conversions</span>
+                    </div>
+                    <div class="card-arrow">→</div>
+                </div>
+                
+                <div class="service-card" data-service="seo">
+                    <div class="card-glow"></div>
+                    <div class="service-icon">🔍</div>
+                    <h3>SEO & Content Writing</h3>
+                    <p>Dominate search rankings with data-driven content strategies. Our SEO experts combine technical optimization with compelling content to drive organic traffic that converts.</p>
+                    <ul class="service-features">
+                        <li>📊 Comprehensive SEO Audits</li>
+                        <li>🔑 Keyword Research & Strategy</li>
+                        <li>✍️ SEO-Optimized Blog Content</li>
+                        <li>🔗 Link Building & Outreach</li>
+                        <li>📍 Local SEO & Google My Business</li>
+                    </ul>
+                    <div class="service-benefit">
+                        <span class="benefit-icon">📈</span>
+                        <span>Top 3 Rankings</span>
+                    </div>
+                    <div class="card-arrow">→</div>
+                </div>
+                
+                <div class="service-card" data-service="social-media">
+                    <div class="card-glow"></div>
+                    <div class="service-icon">📱</div>
+                    <h3>Social Media Marketing</h3>
+                    <p>Turn followers into fans and fans into paying customers. We create scroll-stopping content and strategic campaigns that build communities and drive measurable business growth.</p>
+                    <ul class="service-features">
+                        <li>📅 Content Calendar & Strategy</li>
+                        <li>🎥 Video Content & Reels Production</li>
+                        <li>💬 Community Management</li>
+                        <li>📊 Paid Social Advertising (FB, IG, LinkedIn)</li>
+                        <li>📈 Analytics & Performance Reporting</li>
+                    </ul>
+                    <div class="service-benefit">
+                        <span class="benefit-icon">🔥</span>
+                        <span>Viral Engagement</span>
+                    </div>
+                    <div class="card-arrow">→</div>
+                </div>
+                
+                <div class="service-card" data-service="google-business">
+                    <div class="card-glow"></div>
+                    <div class="service-icon">📍</div>
+                    <h3>Google Business Profile</h3>
+                    <p>Local domination through optimized Google presence. We help you own the local pack, attract nearby customers, and convert searchers into foot traffic and phone calls.</p>
+                    <ul class="service-features">
+                        <li>🏆 GBP Setup & Optimization</li>
+                        <li>⭐ Review Management Strategy</li>
+                        <li>📸 Photo & Virtual Tour Uploads</li>
+                        <li>📝 Posts & Updates Management</li>
+                        <li>🎯 Local Citation Building</li>
+                    </ul>
+                    <div class="service-benefit">
+                        <span class="benefit-icon">🏆</span>
+                        <span>#1 Local Rankings</span>
+                    </div>
+                    <div class="card-arrow">→</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="section process-section">
+            <div class="section-header">
+                <div class="section-badge">SYSTEM ARCHITECTURE</div>
+                <h2 class="section-title">HOW THE <span class="gradient-text">SYSTEM WORKS</span></h2>
+                <p class="section-subtitle">Most agencies guess. We engineer outcomes using data, psychology, and precision systems.</p>
+            </div>
+            
+            <div class="process-flow">
+                <div class="process-step" data-step="1">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>STRATEGY</h3>
+                        <p>Deep dive analysis of your market, competitors, and opportunities</p>
+                    </div>
+                    <div class="step-connector"></div>
+                </div>
+                
+                <div class="process-step" data-step="2">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>BUILD</h3>
+                        <p>Engineer high-performance assets designed for conversion</p>
+                    </div>
+                    <div class="step-connector"></div>
+                </div>
+                
+                <div class="process-step" data-step="3">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>TRAFFIC</h3>
+                        <p>Deploy multi-channel campaigns to flood your funnel</p>
+                    </div>
+                    <div class="step-connector"></div>
+                </div>
+                
+                <div class="process-step" data-step="4">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>CONVERSION</h3>
+                        <p>Optimize every touchpoint to maximize conversion rates</p>
+                    </div>
+                    <div class="step-connector"></div>
+                </div>
+                
+                <div class="process-step" data-step="5">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h3>SCALE</h3>
+                        <p>Amplify what works and scale to new revenue heights</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work/Case Studies Section -->
+        <section id="work" class="section work-section">
+            <div class="section-header">
+                <div class="section-badge">PROVEN RESULTS</div>
+                <h2 class="section-title">CASE <span class="gradient-text">STUDIES</span></h2>
+                <p class="section-subtitle">Real data. Real growth. Real transformations.</p>
+            </div>
+            
+            <div class="case-studies-grid">
+                <div class="case-study-card featured">
+                    <div class="case-visual">
+                        <div class="chart-container">
+                            <div class="bar-chart">
+                                <div class="bar before"><span>BEFORE</span></div>
+                                <div class="bar after"><span>AFTER</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-category">E-COMMERCE</div>
+                        <h3>Revenue Explosion: +347%</h3>
+                        <p>Complete system overhaul resulting in record-breaking sales. We rebuilt their entire digital infrastructure, optimized conversion funnels, and implemented data-driven marketing campaigns.</p>
+                        <div class="case-challenge">
+                            <strong>Challenge:</strong> Declining conversions, outdated website, no clear marketing strategy
+                        </div>
+                        <div class="case-solution">
+                            <strong>Solution:</strong> Full website redesign, SEO optimization, paid advertising campaigns
+                        </div>
+                        <div class="case-stats">
+                            <div class="case-stat">
+                                <span class="stat-value">+347%</span>
+                                <span class="stat-label">Revenue Increase</span>
+                            </div>
+                            <div class="case-stat">
+                                <span class="stat-value">+215%</span>
+                                <span class="stat-label">Conversion Rate</span>
+                            </div>
+                            <div class="case-stat">
+                                <span class="stat-value">5.2X</span>
+                                <span class="stat-label">ROI Achieved</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study-card">
+                    <div class="case-visual">
+                        <div class="traffic-lines">
+                            <svg viewBox="0 0 400 200">
+                                <path class="traffic-line line-1" d="M0,150 Q100,100 200,80 T400,30"/>
+                                <path class="traffic-line line-2" d="M0,170 Q100,140 200,100 T400,50"/>
+                                <path class="traffic-line line-3" d="M0,180 Q100,160 200,120 T400,70"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-category">LOCAL BUSINESS</div>
+                        <h3>Local Domination Strategy</h3>
+                        <p>From invisible to #1 in local search results. Our comprehensive local SEO strategy transformed this home services business into the top choice in their market.</p>
+                        <div class="case-challenge">
+                            <strong>Challenge:</strong> Zero online visibility, competitors ranking higher
+                        </div>
+                        <div class="case-solution">
+                            <strong>Solution:</strong> Google Business Profile optimization, local citations, review management
+                        </div>
+                        <div class="case-stats">
+                            <div class="case-stat">
+                                <span class="stat-value">+890%</span>
+                                <span class="stat-label">Organic Traffic</span>
+                            </div>
+                            <div class="case-stat">
+                                <span class="stat-value">#1</span>
+                                <span class="stat-label">Local Rankings</span>
+                            </div>
+                            <div class="case-stat">
+                                <span class="stat-value">+450%</span>
+                                <span class="stat-label">Phone Calls</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-study-card">
+                    <div class="case-visual">
+                        <div class="social-metrics">
+                            <div class="metric-circle">
+                                <svg viewBox="0 0 100 100">
+                                    <circle class="metric-bg" cx="50" cy="50" r="45"/>
+                                    <circle class="metric-fill" cx="50" cy="50" r="45"/>
+                                </svg>
+                                <span class="metric-value">+425%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-category">SOCIAL MEDIA</div>
+                        <h3>Viral Engagement Campaign</h3>
+                        <p>Building a community that drives consistent sales. Through strategic content creation and community management, we turned their social channels into revenue generators.</p>
+                        <div class="case-challenge">
+                            <strong>Challenge:</strong> Low engagement, inconsistent posting, no clear brand voice
+                        </div>
+                        <div class="case-solution">
+                            <strong>Solution:</strong> Content strategy, video production, influencer partnerships
+                        </div>
+                        <div class="case-stats">
+                            <div class="case-stat">
+                                <span class="stat-value">+425%</span>
+                                <span class="stat-label">Engagement</span>
+                            </div>
+                            <div class="case-stat">
+                                <span class="stat-value">50K+</span>
+                                <span class="stat-label">New Followers</span>
+                            </div>
+                            <div class="case-stat">
+                                <span class="stat-value">+180%</span>
+                                <span class="stat-label">Social Sales</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all-work">
+                <button class="btn-secondary">VIEW ALL CASE STUDIES →</button>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section testimonials-section">
+            <div class="section-header">
+                <div class="section-badge">CLIENT TRANSMISSIONS</div>
+                <h2 class="section-title">TESTIMONIAL <span class="gradient-text">WALL</span></h2>
+                <p class="section-subtitle">Don't just take our word for it. Hear from businesses we've transformed.</p>
+            </div>
+            
+            <div class="testimonials-container">
+                <div class="testimonial-card featured">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <div class="testimonial-content">
+                        <p>"Ciona Tech didn't just build us a website—they built us a revenue machine. Our sales have tripled in 6 months. The ROI has been absolutely incredible."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <strong>James Davidson</strong>
+                            <span>CEO, TechStart Inc.</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-result">+347% Revenue Growth</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <div class="testimonial-content">
+                        <p>"The ROI we've seen is insane. These guys actually understand how to drive real business results, not just vanity metrics. Best investment we've made."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <strong>Sarah Mitchell</strong>
+                            <span>Founder, BeautyBrand</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-result">5.2X Average ROI</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <div class="testimonial-content">
+                        <p>"Finally, an agency that thinks like business owners. They engineered a system that runs 24/7 bringing in qualified leads. We're booked solid for months."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MR</div>
+                        <div class="author-info">
+                            <strong>Michael Rodriguez</strong>
+                            <span>Owner, HomeServices Pro</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-result">+890% More Leads</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <div class="testimonial-content">
+                        <p>"Our Google rankings went from page 5 to #1 in just 3 months. Phone hasn't stopped ringing. Ciona Tech knows exactly what they're doing with local SEO."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LT</div>
+                        <div class="author-info">
+                            <strong>Lisa Thompson</strong>
+                            <span>Director, Wellness Clinic</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-result">#1 Local Rankings</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <div class="testimonial-content">
+                        <p>"The social media campaigns they created went viral multiple times. Our brand awareness skyrocketed and we gained over 50K engaged followers."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DK</div>
+                        <div class="author-info">
+                            <strong>David Kim</strong>
+                            <span>CMO, FashionForward</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-result">50K+ New Followers</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <div class="testimonial-content">
+                        <p>"Professional, responsive, and results-driven. They don't just promise—they deliver. Our conversion rate doubled after the redesign."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AP</div>
+                        <div class="author-info">
+                            <strong>Amanda Peters</strong>
+                            <span>Founder, EcoShop</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-result">+215% Conversions</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="section pricing-section">
+            <div class="section-header">
+                <div class="section-badge">INVESTMENT TIERS</div>
+                <h2 class="section-title">CHOOSE YOUR <span class="gradient-text">POWER LEVEL</span></h2>
+                <p class="section-subtitle">Predictable pricing. Predictable results.</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>STARTER</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">400.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Website Maintenance</li>
+                        <li>✓ Basic SEO Optimization</li>
+                        <li>✓ 5 Social Posts/Month</li>
+                        <li>✓ Monthly Analytics Report</li>
+                        <li>✓ Email Support</li>
+                    </ul>
+                    <button class="pricing-btn">SELECT PLAN</button>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="popular-badge">MOST POPULAR</div>
+                    <div class="pricing-header">
+                        <h3>PIONEER ⭐</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">500.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Everything in Starter</li>
+                        <li>✓ Advanced SEO Strategy</li>
+                        <li>✓ 15 Social Posts/Month</li>
+                        <li>✓ Content Creation (4 blogs)</li>
+                        <li>✓ Google Ads Management</li>
+                        <li>✓ Weekly Performance Calls</li>
+                        <li>✓ Priority Support</li>
+                    </ul>
+                    <button class="pricing-btn primary">SELECT PLAN</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>MOMENTUM</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">450.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Everything in Starter</li>
+                        <li>✓ Enhanced SEO Package</li>
+                        <li>✓ 10 Social Posts/Month</li>
+                        <li>✓ Content Creation (2 blogs)</li>
+                        <li>✓ Bi-weekly Reports</li>
+                        <li>✓ Phone Support</li>
+                    </ul>
+                    <button class="pricing-btn">SELECT PLAN</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="section-header">
+                <div class="section-badge">OUR ORIGIN</div>
+                <h2 class="section-title">BUILT TO <span class="gradient-text">ELIMINATE GUESSWORK</span></h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        We built Ciona Tech because we were tired of marketing agencies that rely on hope and intuition. 
+                        <strong>We believe in systems, data, and engineering precision.</strong>
+                    </p>
+                    <p>
+                        Every strategy we deploy is backed by research. Every campaign is measured. Every result is optimized.
+                        We don't just want to be your agency—we want to be your growth engine.
+                    </p>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>2019</h4>
+                            <p>Ciona Tech Founded</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>2020</h4>
+                            <p>100th Project Delivered</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>2021</h4>
+                            <p>Expanded to Full-Service Agency</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>2022</h4>
+                            <p>Launched Growth System Framework</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>2024</h4>
+                            <p>500+ Projects | 5X Average ROI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section faq-section">
+            <div class="section-header">
+                <div class="section-badge">KNOWLEDGE BASE</div>
+                <h2 class="section-title">FREQUENT <span class="gradient-text">QUESTIONS</span></h2>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What makes Ciona Tech different from other agencies?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We don't guess—we engineer. Every strategy is data-driven, every campaign is measurable, and every result is optimized. We've built proprietary systems that eliminate the trial-and-error approach most agencies use.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How quickly can I expect to see results?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Most clients see initial improvements within 30 days. Significant growth typically occurs within 90 days as our systems compound their effects. SEO and content strategies may take 3-6 months for full impact.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you work with businesses in my industry?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We've worked with e-commerce, local services, SaaS, healthcare, real estate, and more. Our systems are adaptable to any industry where customers search online.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What's included in your monthly pricing?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our pricing includes ongoing optimization, regular reporting, dedicated support, and continuous improvement of all active campaigns. No hidden fees, no surprises.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I upgrade or change my plan later?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. As your business grows, your plan can grow with it. We make it easy to upgrade services or add additional capabilities as needed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="section blog-section">
+            <div class="section-header">
+                <div class="section-badge">CONTENT ENGINE</div>
+                <h2 class="section-title">LATEST <span class="gradient-text">INSIGHTS</span></h2>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="placeholder-gradient"></div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-category">SEO STRATEGY</div>
+                        <h3>5 Ranking Factors That Matter in 2024</h3>
+                        <p>Discover the algorithm updates that are reshaping search results and how to adapt your strategy.</p>
+                        <a href="#" class="read-more">READ MORE →</a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="placeholder-gradient"></div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-category">CONVERSION</div>
+                        <h3>The Psychology of High-Converting Landing Pages</h3>
+                        <p>Learn the mental triggers that compel visitors to take action and boost your conversion rates.</p>
+                        <a href="#" class="read-more">READ MORE →</a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="placeholder-gradient"></div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-category">SOCIAL MEDIA</div>
+                        <h3>Social Media Trends Dominating This Year</h3>
+                        <p>Stay ahead of the curve with these emerging social media strategies and platform updates.</p>
+                        <a href="#" class="read-more">READ MORE →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-header">
+                <div class="section-badge">INITIATE CONTACT</div>
+                <h2 class="section-title">READY TO <span class="gradient-text">SCALE?</span></h2>
+                <p class="section-subtitle">Your competitors are already scaling. Are you?</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h4>PHONE</h4>
+                            <p>254-870-0892</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-content">
+                            <h4>EMAIL</h4>
+                            <p>info@cionatech.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h4>LOCATION</h4>
+                            <p>Houston, Texas</p>
+                        </div>
+                    </div>
+                    
+                    <div class="response-time">
+                        <span class="pulse-dot"></span>
+                        We usually respond within minutes
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">YOUR NAME</label>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">EMAIL ADDRESS</label>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone">
+                        <label for="phone">PHONE NUMBER</label>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="" disabled selected></option>
+                            <option value="web-dev">Website Development</option>
+                            <option value="graphic-design">Graphic Design</option>
+                            <option value="ui-ux">UI/UX Design</option>
+                            <option value="seo">SEO & Content</option>
+                            <option value="social-media">Social Media Marketing</option>
+                            <option value="google-business">Google Business Profile</option>
+                            <option value="full-system">Full Growth System</option>
+                        </select>
+                        <label for="service">SELECT SERVICE</label>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" rows="4" required></textarea>
+                        <label for="message">YOUR MESSAGE</label>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn glow-effect">
+                        <span>LAUNCH PROJECT</span>
+                        <span class="btn-pulse"></span>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section class="section final-cta-section">
+            <div class="final-cta-content">
+                <h2>YOUR COMPETITORS ARE ALREADY SCALING.<br><span class="gradient-text">ARE YOU?</span></h2>
+                <button class="btn-primary btn-large glow-effect">START YOUR PROJECT</button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">◈</span>
+                        <span class="logo-text">CIONA<span class="highlight">TECH</span></span>
+                    </div>
+                    <p>Engineering growth through data, design, and digital excellence.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-column">
+                        <h4>COMPANY</h4>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#blog">Blog</a>
+                    </div>
+                    <div class="link-column">
+                        <h4>SERVICES</h4>
+                        <a href="#services">Web Development</a>
+                        <a href="#services">SEO</a>
+                        <a href="#services">Social Media</a>
+                    </div>
+                    <div class="link-column">
+                        <h4>LEGAL</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ciona Tech LLC. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <!-- Sticky CTA -->
+        <div class="sticky-cta">
+            <button class="sticky-cta-btn">
+                <span>START PROJECT</span>
+                <span class="arrow">→</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
